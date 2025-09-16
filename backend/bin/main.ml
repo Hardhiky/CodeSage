@@ -1,4 +1,4 @@
-(* main.ml - The web server that orchestrates the AST-based analysis *)
+
 open Lwt.Infix
 open Analyzer
 open Yojson.Basic.Util
@@ -31,13 +31,13 @@ let analyze_handler request =
               ]
             )
       | _ ->
-          [] (* Add other languages' parsers here *)
+          [] 
     in
 
     let response_json = `Assoc [
       ("detected", `String detected);
       ("static", `List static_issues);
-      ("ml", `List []) (* Machine learning suggestions would also be based on AST *)
+      ("ml", `List []) 
     ] in
     Dream.json (Yojson.Basic.to_string response_json)
   with
