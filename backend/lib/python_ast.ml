@@ -1,4 +1,3 @@
-(* python_ast.ml - Defines a simplified Abstract Syntax Tree for Python *)
 
 type expression =
   | Ident of string
