@@ -1,4 +1,4 @@
-(* python_rules.ml - The core analysis engine for Python AST *)
+
 open Python_ast
 
 let rec analyze_ast ast =
@@ -21,5 +21,5 @@ and analyze_expression expr =
   | Call (Ident "open", _) ->
       [("Close files or use context managers", "Found a call to 'open'.")]
   | Call _ ->
-      [] (* Ignore other function calls *)
+      [] 
   | _ -> []
