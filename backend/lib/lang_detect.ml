@@ -1,4 +1,4 @@
-(* lang_detect.ml *)
+
 let contains pattern code =
   try ignore (Str.search_forward (Str.regexp pattern) code 0); true
   with Not_found -> false
