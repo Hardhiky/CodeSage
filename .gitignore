@@ -1,0 +1,15 @@
+# OCaml/Dune
+_build/
+*.install
+*.merlin
+
+# Node.js
+node_modules/
+dist/
+.env
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+

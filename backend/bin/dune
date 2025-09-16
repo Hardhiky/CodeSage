@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (libraries dream yojson analyzer)
+ (modes byte))

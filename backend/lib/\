@@ -1,0 +1,6 @@
+
+(library
+ (name analyzer)
+ (libraries str)
+ (modes byte)
+ (modules lang_detect python_ast python_parser python_rules))
