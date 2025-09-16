@@ -28,4 +28,5 @@ Technologies used :
 - TypeScript  
 - HTML / CSS  
 
-## only suppored a few syntax for python only will be developing static analysis for most of them
+## only supports a few syntax for python only will be developing static analysis for most of the of the syntax
+## PYTHON ONLY
