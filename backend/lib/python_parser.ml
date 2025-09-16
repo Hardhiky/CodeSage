@@ -1,8 +1,4 @@
-(* python_parser.ml - A highly simplified, hand-written Python parser.
-   WARNING: This is for demonstration purposes only. It will fail on
-   most real-world Python code. It is designed to parse the
-   test cases we discussed.
-*)
+
 open Python_ast
 
 let tokenize code =
